@@ -30,7 +30,7 @@ PYHTON MANAGE.PY RUNSERVER
 
 
 open python anywhere 
-go to console and type "mkvirtualenv --python=python3.7 teaching_blog(env name)"
+go to console and type "mkvirtualenv --python=python3.7 app(env name)"
 install dependencies 
 which django-admin.py to check if the django is successfully installed and working
 git clone <repo name>
@@ -38,7 +38,7 @@ get dir list using ls and get into file
 migrate and make migrations like we do locally
 create superuser
 go to web, add project 
-add virtual env on path (/home/somvirs57/.virtualenvs/teaching_blog)
+add virtual env on path (/home/somvirs57/.virtualenvs/app)
 open bash console in virtual env and get the working directory by getting 
 		into the directory and typing pwd
 paste this path into source code directory
