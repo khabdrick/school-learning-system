@@ -18,6 +18,8 @@ class Standard(models.Model):
         super().save(*args, **kwargs)
 
 def save_subject_image(instance, filename):
+    ''' Rename image'''
+
     upload_to = 'Images/'
     ext = filename.split('.')[-1]
     # get filename
