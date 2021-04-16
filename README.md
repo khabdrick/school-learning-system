@@ -1,1 +1,1 @@
-# school-learning-system
+# school Learning System
